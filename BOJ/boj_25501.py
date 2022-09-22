@@ -1,3 +1,5 @@
+
+
 def recursion(s, l, r):
     global cnt
     cnt += 1
@@ -10,6 +12,7 @@ def recursion(s, l, r):
 
 def isPalindrome(s):
     return recursion(s, 0, len(s)-1)
+
 
 t = int(input())
 
